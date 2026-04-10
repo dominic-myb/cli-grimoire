@@ -1,0 +1,25 @@
+[general]
+import = ["~/.config/alacritty/themes/themes/night_owl.toml"]
+
+[window]
+dimensions = { columns = 100, lines = 30 }
+padding = { x = 10, y = 10 }
+decorations = "None"
+opacity = 0.95
+blur = true
+title = "Alacritty"
+class = { instance = "Alacritty", general = "Alacritty" }
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+size = 12.0
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+blink_interval = 500
+
+[scrolling]
+history = 10000
+multiplier = 3
