@@ -10,12 +10,6 @@ echo "======================================"
 echo "  📖 CLI-Grimoire Installer Starting  "
 echo "======================================"
 
-read -p "This will modify your config files. Continue? (y/n): " confirm
-if [[ "$confirm" != "y" ]]; then
-  echo "❌ Aborted."
-  exit 1
-fi
-
 chmod +x "$DOTFILES_DIR"/scripts/*.sh
 
 run_script() {
