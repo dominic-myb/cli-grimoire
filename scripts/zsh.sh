@@ -6,9 +6,7 @@ echo "Setting up Zsh..."
 
 DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
-CONFIG_DIR="$HOME/.zshrc"
-
-mkdir -p "$CONFIG_DIR"
+CONFIG_DIR="$HOME/"
 
 if [ -f "$CONFIG_DIR/.zshrc" ]; then
   echo "📦 Backing up existing .zshrc..."
