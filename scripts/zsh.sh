@@ -6,7 +6,7 @@ echo "Setting up Zsh..."
 
 DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
-CONFIG_DIR="$HOME/.config"
+CONFIG_DIR="$HOME/"
 
 mkdir -p "$CONFIG_DIR"
 
